@@ -1,11 +1,12 @@
 import React from 'react';
-import { Form, ListGroup } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import { DeleteIcon } from '../Icons';
+import ListItem from '../UI/List/ListItem';
 
-const Todo = ({ todos, toggleTodo }) =>
+const Todo = ({ todos, toggleTodo, deleteTodo }) =>
   todos.length > 0 ? (
     todos.map(todo => (
-      <ListGroup.Item className="list-group-custom" key={todo.id}>
+      <ListItem className="list-group-custom" key={todo.id}>
         <Form.Check
           key={todo.id}
           custom
@@ -19,13 +20,13 @@ const Todo = ({ todos, toggleTodo }) =>
         <p className={`todo-text ${todo.completed ? 'todo-complete' : ''}`}>
           {todo.text}
         </p>
-        <div className="todo-action">
+        <div className="todo-action" onClick={() => deleteTodo(todo.id)}>
           <DeleteIcon />
         </div>
-      </ListGroup.Item>
+      </ListItem>
     ))
   ) : (
-    <ListGroup.Item>No todos found</ListGroup.Item>
+    <ListItem>No todos found</ListItem>
   );
 
 export default Todo;

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import uuid from 'uuid';
-import AddTodo from './components/AddTodo';
+import AddTodo from './todos/AddTodo';
 import VisibleTodoList from './todos/VisibleTodoList';
 import Footer from './todos/Footer';
-import * as todostatus from './todos/status';
 import DashboardContainer from './dashboard/DashboardContainer';
+import * as todostatus from './todos/status';
+
 import './todos/todos.css';
 
 class AppContainer extends Component {
@@ -41,6 +42,14 @@ class AppContainer extends Component {
     });
   };
 
+  deleteTodo = todoId => {
+    // Don't mutate the state while updating array
+    const filteredItems = this.state.todos.filter(todo => todo.id !== todoId);
+    this.setState({
+      todos: filteredItems
+    });
+  };
+
   filterTodo = status => {
     this.setState({
       currentFilter: status
@@ -51,7 +60,11 @@ class AppContainer extends Component {
     const { todos } = this.state;
     const modifiedTodos = todos.map(todo =>
       todo.id === id
-        ? { ...todo, completed: !todo.completed, status: todostatus.COMPLETED }
+        ? {
+            ...todo,
+            status: todo.completed ? todostatus.ACTIVE : todostatus.COMPLETED,
+            completed: !todo.completed
+          }
         : todo
     );
     this.setState({
@@ -75,6 +88,7 @@ class AppContainer extends Component {
             todos={this.state.todos}
             currentFilter={this.state.currentFilter}
             toggleTodo={this.toggleTodo}
+            deleteTodo={this.deleteTodo}
           />
           {/* Filter Panel */}
           <Footer
