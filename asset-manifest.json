@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/react-todo-viz/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/react-todo-viz/static/js/main.93b98705.chunk.js",
-    "main.js.map": "/react-todo-viz/static/js/main.93b98705.chunk.js.map",
-    "runtime-main.js": "/react-todo-viz/static/js/runtime-main.efb2ae50.js",
-    "runtime-main.js.map": "/react-todo-viz/static/js/runtime-main.efb2ae50.js.map",
-    "static/js/2.972c573f.chunk.js": "/react-todo-viz/static/js/2.972c573f.chunk.js",
-    "static/js/2.972c573f.chunk.js.map": "/react-todo-viz/static/js/2.972c573f.chunk.js.map",
+    "main.css": "/react-todo-viz/static/css/main.565454a0.chunk.css",
+    "main.js": "/react-todo-viz/static/js/main.73a7c6c6.chunk.js",
+    "main.js.map": "/react-todo-viz/static/js/main.73a7c6c6.chunk.js.map",
+    "runtime-main.js": "/react-todo-viz/static/js/runtime-main.6a869d9f.js",
+    "runtime-main.js.map": "/react-todo-viz/static/js/runtime-main.6a869d9f.js.map",
+    "xlsx.js": "/react-todo-viz/static/js/xlsx.b9bab55e.chunk.js",
+    "xlsx.js.map": "/react-todo-viz/static/js/xlsx.b9bab55e.chunk.js.map",
+    "static/js/3.4972d5e5.chunk.js": "/react-todo-viz/static/js/3.4972d5e5.chunk.js",
+    "static/js/3.4972d5e5.chunk.js.map": "/react-todo-viz/static/js/3.4972d5e5.chunk.js.map",
+    "static/js/4.5d757da2.chunk.js": "/react-todo-viz/static/js/4.5d757da2.chunk.js",
+    "static/js/4.5d757da2.chunk.js.map": "/react-todo-viz/static/js/4.5d757da2.chunk.js.map",
+    "static/js/5.af70e800.chunk.js": "/react-todo-viz/static/js/5.af70e800.chunk.js",
+    "static/js/5.af70e800.chunk.js.map": "/react-todo-viz/static/js/5.af70e800.chunk.js.map",
+    "static/js/6.aa54a4a2.chunk.js": "/react-todo-viz/static/js/6.aa54a4a2.chunk.js",
+    "static/js/6.aa54a4a2.chunk.js.map": "/react-todo-viz/static/js/6.aa54a4a2.chunk.js.map",
     "index.html": "/react-todo-viz/index.html",
-    "precache-manifest.0bc3b99a8ed454f7f9f8bb461be2e09e.js": "/react-todo-viz/precache-manifest.0bc3b99a8ed454f7f9f8bb461be2e09e.js",
+    "precache-manifest.cd5dd000411692c72b0d69331929c2de.js": "/react-todo-viz/precache-manifest.cd5dd000411692c72b0d69331929c2de.js",
     "service-worker.js": "/react-todo-viz/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/react-todo-viz/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.972c573f.chunk.js.LICENSE": "/react-todo-viz/static/js/2.972c573f.chunk.js.LICENSE"
+    "static/css/main.565454a0.chunk.css.map": "/react-todo-viz/static/css/main.565454a0.chunk.css.map",
+    "static/js/3.4972d5e5.chunk.js.LICENSE": "/react-todo-viz/static/js/3.4972d5e5.chunk.js.LICENSE",
+    "static/js/4.5d757da2.chunk.js.LICENSE": "/react-todo-viz/static/js/4.5d757da2.chunk.js.LICENSE",
+    "static/js/5.af70e800.chunk.js.LICENSE": "/react-todo-viz/static/js/5.af70e800.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.efb2ae50.js",
-    "static/js/2.972c573f.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.93b98705.chunk.js"
+    "static/js/runtime-main.6a869d9f.js",
+    "static/js/3.4972d5e5.chunk.js",
+    "static/css/main.565454a0.chunk.css",
+    "static/js/main.73a7c6c6.chunk.js"
   ]
 }
