@@ -74,7 +74,7 @@ class AppContainer extends Component {
 
   render() {
     return (
-      <Row id="app-container">
+      <Row class="app-container">
         <Col md={6} id="todo-container">
           {/* Todo Form Component */}
           <h1 className="heading">My Todo</h1>

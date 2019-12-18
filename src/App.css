@@ -111,7 +111,7 @@ section {
 html,
 body,
 #root,
-#app-container {
+.app-container {
   height: 100%;
 }
 body {
